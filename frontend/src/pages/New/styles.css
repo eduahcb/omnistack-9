@@ -1,0 +1,23 @@
+#thumbnail {
+  margin-bottom: 20px;
+  border: 1px dashed;
+  background-size: cover;
+  cursor: pointer;
+  height: 160px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#thumbnail input {
+  display: none;
+}
+
+#thumbnail.has-thumbnail {
+  border: 0;
+}
+
+#thumbnail.has-thumbnail img {
+  display: none;
+}
